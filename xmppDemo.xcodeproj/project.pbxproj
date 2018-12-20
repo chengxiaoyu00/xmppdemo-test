@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E5BC90A1DDAAC16D448D91 /* Pods_xmppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDFB75601D2E8EBCA4C7C0E /* Pods_xmppDemo.framework */; };
+		65E12CA72179C5870026B64F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CA62179C5870026B64F /* AppDelegate.swift */; };
+		65E12CAE2179C5880026B64F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E12CAD2179C5880026B64F /* Assets.xcassets */; };
+		65E12CB12179C5880026B64F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E12CAF2179C5880026B64F /* LaunchScreen.storyboard */; };
+		65E12CB92179C5BF0026B64F /* XYRoter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CB82179C5BF0026B64F /* XYRoter.swift */; };
+		65E12CBB2179C6600026B64F /* RootTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CBA2179C6600026B64F /* RootTabBarViewController.swift */; };
+		65E12CD72179D9D10026B64F /* CATransform3D+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CC02179D9D10026B64F /* CATransform3D+Helper.swift */; };
+		65E12CD82179D9D10026B64F /* Degree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CC12179D9D10026B64F /* Degree.swift */; };
+		65E12CD92179D9D10026B64F /* UIColors+ColorPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CC22179D9D10026B64F /* UIColors+ColorPallete.swift */; };
+		65E12CDA2179D9D10026B64F /* CritterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CC52179D9D10026B64F /* CritterView.swift */; };
+		65E12CDB2179D9D10026B64F /* CritterAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CC62179D9D10026B64F /* CritterAssets.swift */; };
+		65E12CDC2179D9D10026B64F /* CritterAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CC72179D9D10026B64F /* CritterAnimatable.swift */; };
+		65E12CDD2179D9D10026B64F /* RightEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CC92179D9D10026B64F /* RightEye.swift */; };
+		65E12CDE2179D9D10026B64F /* LeftEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CCA2179D9D10026B64F /* LeftEye.swift */; };
+		65E12CDF2179D9D10026B64F /* Mouth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CCB2179D9D10026B64F /* Mouth.swift */; };
+		65E12CE02179D9D10026B64F /* Nose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CCC2179D9D10026B64F /* Nose.swift */; };
+		65E12CE12179D9D10026B64F /* RightEarMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CCD2179D9D10026B64F /* RightEarMask.swift */; };
+		65E12CE22179D9D10026B64F /* Head.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CCE2179D9D10026B64F /* Head.swift */; };
+		65E12CE32179D9D10026B64F /* RightArm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CCF2179D9D10026B64F /* RightArm.swift */; };
+		65E12CE42179D9D10026B64F /* LeftEarMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CD02179D9D10026B64F /* LeftEarMask.swift */; };
+		65E12CE52179D9D10026B64F /* Muzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CD12179D9D10026B64F /* Muzzle.swift */; };
+		65E12CE62179D9D10026B64F /* LeftArm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CD22179D9D10026B64F /* LeftArm.swift */; };
+		65E12CE72179D9D10026B64F /* LeftEar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CD32179D9D10026B64F /* LeftEar.swift */; };
+		65E12CE82179D9D10026B64F /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CD42179D9D10026B64F /* Body.swift */; };
+		65E12CE92179D9D10026B64F /* RightEar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CD52179D9D10026B64F /* RightEar.swift */; };
+		65E12CEA2179D9D10026B64F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CD62179D9D10026B64F /* LoginViewController.swift */; };
+		65E12CEE2179E1630026B64F /* Target_LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CED2179E1630026B64F /* Target_LoginVC.swift */; };
+		65E12CF1217D71570026B64F /* xmppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CF0217D71570026B64F /* xmppManager.swift */; };
+		65E12CF4217DCF490026B64F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CF3217DCF490026B64F /* LoginViewModel.swift */; };
+		65E12CF7217DD1DB0026B64F /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E12CF6217DD1DB0026B64F /* LoginModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47644C738E4ED4035E5CA6A3 /* Pods-xmppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmppDemo.debug.xcconfig"; path = "Target Support Files/Pods-xmppDemo/Pods-xmppDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		65E12CA32179C5870026B64F /* xmppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xmppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E12CA62179C5870026B64F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65E12CAD2179C5880026B64F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E12CB02179C5880026B64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65E12CB22179C5880026B64F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E12CB82179C5BF0026B64F /* XYRoter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYRoter.swift; sourceTree = "<group>"; };
+		65E12CBA2179C6600026B64F /* RootTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarViewController.swift; sourceTree = "<group>"; };
+		65E12CC02179D9D10026B64F /* CATransform3D+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CATransform3D+Helper.swift"; sourceTree = "<group>"; };
+		65E12CC12179D9D10026B64F /* Degree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Degree.swift; sourceTree = "<group>"; };
+		65E12CC22179D9D10026B64F /* UIColors+ColorPallete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColors+ColorPallete.swift"; sourceTree = "<group>"; };
+		65E12CC52179D9D10026B64F /* CritterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CritterView.swift; sourceTree = "<group>"; };
+		65E12CC62179D9D10026B64F /* CritterAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CritterAssets.swift; sourceTree = "<group>"; };
+		65E12CC72179D9D10026B64F /* CritterAnimatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CritterAnimatable.swift; sourceTree = "<group>"; };
+		65E12CC92179D9D10026B64F /* RightEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightEye.swift; sourceTree = "<group>"; };
+		65E12CCA2179D9D10026B64F /* LeftEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftEye.swift; sourceTree = "<group>"; };
+		65E12CCB2179D9D10026B64F /* Mouth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mouth.swift; sourceTree = "<group>"; };
+		65E12CCC2179D9D10026B64F /* Nose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nose.swift; sourceTree = "<group>"; };
+		65E12CCD2179D9D10026B64F /* RightEarMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightEarMask.swift; sourceTree = "<group>"; };
+		65E12CCE2179D9D10026B64F /* Head.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Head.swift; sourceTree = "<group>"; };
+		65E12CCF2179D9D10026B64F /* RightArm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightArm.swift; sourceTree = "<group>"; };
+		65E12CD02179D9D10026B64F /* LeftEarMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftEarMask.swift; sourceTree = "<group>"; };
+		65E12CD12179D9D10026B64F /* Muzzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Muzzle.swift; sourceTree = "<group>"; };
+		65E12CD22179D9D10026B64F /* LeftArm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftArm.swift; sourceTree = "<group>"; };
+		65E12CD32179D9D10026B64F /* LeftEar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftEar.swift; sourceTree = "<group>"; };
+		65E12CD42179D9D10026B64F /* Body.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
+		65E12CD52179D9D10026B64F /* RightEar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightEar.swift; sourceTree = "<group>"; };
+		65E12CD62179D9D10026B64F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		65E12CED2179E1630026B64F /* Target_LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_LoginVC.swift; sourceTree = "<group>"; usesTabs = 1; };
+		65E12CF0217D71570026B64F /* xmppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xmppManager.swift; sourceTree = "<group>"; };
+		65E12CF3217DCF490026B64F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		65E12CF6217DD1DB0026B64F /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		8DDA1F6AEA46145CB2BB0094 /* Pods-xmppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmppDemo.release.xcconfig"; path = "Target Support Files/Pods-xmppDemo/Pods-xmppDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EEDFB75601D2E8EBCA4C7C0E /* Pods_xmppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xmppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E12CA02179C5870026B64F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E5BC90A1DDAAC16D448D91 /* Pods_xmppDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3942745199E2517E96B1D68C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47644C738E4ED4035E5CA6A3 /* Pods-xmppDemo.debug.xcconfig */,
+				8DDA1F6AEA46145CB2BB0094 /* Pods-xmppDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		65E12C9A2179C5870026B64F = {
+			isa = PBXGroup;
+			children = (
+				65E12CA52179C5870026B64F /* xmppDemo */,
+				65E12CA42179C5870026B64F /* Products */,
+				3942745199E2517E96B1D68C /* Pods */,
+				840A048877122A736892E3CD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		65E12CA42179C5870026B64F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CA32179C5870026B64F /* xmppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E12CA52179C5870026B64F /* xmppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CEF217D70A80026B64F /* xmpp */,
+				65E12CEC2179DAE30026B64F /* RootVC */,
+				65E12CEB2179DA290026B64F /* Roter */,
+				65E12CBE2179D9D10026B64F /* login */,
+				65E12CA62179C5870026B64F /* AppDelegate.swift */,
+				65E12CAD2179C5880026B64F /* Assets.xcassets */,
+				65E12CAF2179C5880026B64F /* LaunchScreen.storyboard */,
+				65E12CB22179C5880026B64F /* Info.plist */,
+			);
+			path = xmppDemo;
+			sourceTree = "<group>";
+		};
+		65E12CBE2179D9D10026B64F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CF5217DD1B60026B64F /* model */,
+				65E12CF2217DCF060026B64F /* viewModel */,
+				65E12CBF2179D9D10026B64F /* Helpers */,
+				65E12CC32179D9D10026B64F /* Login */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		65E12CBF2179D9D10026B64F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CC02179D9D10026B64F /* CATransform3D+Helper.swift */,
+				65E12CC12179D9D10026B64F /* Degree.swift */,
+				65E12CC22179D9D10026B64F /* UIColors+ColorPallete.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		65E12CC32179D9D10026B64F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CC42179D9D10026B64F /* Critter */,
+				65E12CD62179D9D10026B64F /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		65E12CC42179D9D10026B64F /* Critter */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CC52179D9D10026B64F /* CritterView.swift */,
+				65E12CC62179D9D10026B64F /* CritterAssets.swift */,
+				65E12CC72179D9D10026B64F /* CritterAnimatable.swift */,
+				65E12CC82179D9D10026B64F /* Parts */,
+			);
+			path = Critter;
+			sourceTree = "<group>";
+		};
+		65E12CC82179D9D10026B64F /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CC92179D9D10026B64F /* RightEye.swift */,
+				65E12CCA2179D9D10026B64F /* LeftEye.swift */,
+				65E12CCB2179D9D10026B64F /* Mouth.swift */,
+				65E12CCC2179D9D10026B64F /* Nose.swift */,
+				65E12CCD2179D9D10026B64F /* RightEarMask.swift */,
+				65E12CCE2179D9D10026B64F /* Head.swift */,
+				65E12CCF2179D9D10026B64F /* RightArm.swift */,
+				65E12CD02179D9D10026B64F /* LeftEarMask.swift */,
+				65E12CD12179D9D10026B64F /* Muzzle.swift */,
+				65E12CD22179D9D10026B64F /* LeftArm.swift */,
+				65E12CD32179D9D10026B64F /* LeftEar.swift */,
+				65E12CD42179D9D10026B64F /* Body.swift */,
+				65E12CD52179D9D10026B64F /* RightEar.swift */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		65E12CEB2179DA290026B64F /* Roter */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CB82179C5BF0026B64F /* XYRoter.swift */,
+				65E12CED2179E1630026B64F /* Target_LoginVC.swift */,
+			);
+			path = Roter;
+			sourceTree = "<group>";
+		};
+		65E12CEC2179DAE30026B64F /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CBA2179C6600026B64F /* RootTabBarViewController.swift */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		65E12CEF217D70A80026B64F /* xmpp */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CF0217D71570026B64F /* xmppManager.swift */,
+			);
+			path = xmpp;
+			sourceTree = "<group>";
+		};
+		65E12CF2217DCF060026B64F /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CF3217DCF490026B64F /* LoginViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		65E12CF5217DD1B60026B64F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				65E12CF6217DD1DB0026B64F /* LoginModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		840A048877122A736892E3CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEDFB75601D2E8EBCA4C7C0E /* Pods_xmppDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E12CA22179C5870026B64F /* xmppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E12CB52179C5880026B64F /* Build configuration list for PBXNativeTarget "xmppDemo" */;
+			buildPhases = (
+				B9C54FC567F618C6F5EEA3E8 /* [CP] Check Pods Manifest.lock */,
+				65E12C9F2179C5870026B64F /* Sources */,
+				65E12CA02179C5870026B64F /* Frameworks */,
+				65E12CA12179C5870026B64F /* Resources */,
+				C35967156DFB4C4A2646D158 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xmppDemo;
+			productName = xmppDemo;
+			productReference = 65E12CA32179C5870026B64F /* xmppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E12C9B2179C5870026B64F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = chengxiaoyu;
+				TargetAttributes = {
+					65E12CA22179C5870026B64F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 65E12C9E2179C5870026B64F /* Build configuration list for PBXProject "xmppDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65E12C9A2179C5870026B64F;
+			productRefGroup = 65E12CA42179C5870026B64F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65E12CA22179C5870026B64F /* xmppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E12CA12179C5870026B64F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E12CB12179C5880026B64F /* LaunchScreen.storyboard in Resources */,
+				65E12CAE2179C5880026B64F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9C54FC567F618C6F5EEA3E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-xmppDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C35967156DFB4C4A2646D158 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-xmppDemo/Pods-xmppDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+				"${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/libidn/libidn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMPPFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libidn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-xmppDemo/Pods-xmppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E12C9F2179C5870026B64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E12CBB2179C6600026B64F /* RootTabBarViewController.swift in Sources */,
+				65E12CDC2179D9D10026B64F /* CritterAnimatable.swift in Sources */,
+				65E12CE92179D9D10026B64F /* RightEar.swift in Sources */,
+				65E12CE32179D9D10026B64F /* RightArm.swift in Sources */,
+				65E12CDE2179D9D10026B64F /* LeftEye.swift in Sources */,
+				65E12CDB2179D9D10026B64F /* CritterAssets.swift in Sources */,
+				65E12CD82179D9D10026B64F /* Degree.swift in Sources */,
+				65E12CDD2179D9D10026B64F /* RightEye.swift in Sources */,
+				65E12CF4217DCF490026B64F /* LoginViewModel.swift in Sources */,
+				65E12CE62179D9D10026B64F /* LeftArm.swift in Sources */,
+				65E12CE52179D9D10026B64F /* Muzzle.swift in Sources */,
+				65E12CB92179C5BF0026B64F /* XYRoter.swift in Sources */,
+				65E12CE22179D9D10026B64F /* Head.swift in Sources */,
+				65E12CEA2179D9D10026B64F /* LoginViewController.swift in Sources */,
+				65E12CE82179D9D10026B64F /* Body.swift in Sources */,
+				65E12CF1217D71570026B64F /* xmppManager.swift in Sources */,
+				65E12CDF2179D9D10026B64F /* Mouth.swift in Sources */,
+				65E12CEE2179E1630026B64F /* Target_LoginVC.swift in Sources */,
+				65E12CDA2179D9D10026B64F /* CritterView.swift in Sources */,
+				65E12CE02179D9D10026B64F /* Nose.swift in Sources */,
+				65E12CE42179D9D10026B64F /* LeftEarMask.swift in Sources */,
+				65E12CD92179D9D10026B64F /* UIColors+ColorPallete.swift in Sources */,
+				65E12CF7217DD1DB0026B64F /* LoginModel.swift in Sources */,
+				65E12CE72179D9D10026B64F /* LeftEar.swift in Sources */,
+				65E12CE12179D9D10026B64F /* RightEarMask.swift in Sources */,
+				65E12CD72179D9D10026B64F /* CATransform3D+Helper.swift in Sources */,
+				65E12CA72179C5870026B64F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65E12CAF2179C5880026B64F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65E12CB02179C5880026B64F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65E12CB32179C5880026B64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65E12CB42179C5880026B64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65E12CB62179C5880026B64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47644C738E4ED4035E5CA6A3 /* Pods-xmppDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L546MT398X;
+				INFOPLIST_FILE = xmppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyu..xmppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65E12CB72179C5880026B64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDA1F6AEA46145CB2BB0094 /* Pods-xmppDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L546MT398X;
+				INFOPLIST_FILE = xmppDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyu..xmppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E12C9E2179C5870026B64F /* Build configuration list for PBXProject "xmppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E12CB32179C5880026B64F /* Debug */,
+				65E12CB42179C5880026B64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E12CB52179C5880026B64F /* Build configuration list for PBXNativeTarget "xmppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E12CB62179C5880026B64F /* Debug */,
+				65E12CB72179C5880026B64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65E12C9B2179C5870026B64F /* Project object */;
+}
