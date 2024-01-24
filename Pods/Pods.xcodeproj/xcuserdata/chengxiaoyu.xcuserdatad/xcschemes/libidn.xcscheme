@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "62BF625B230BB1A38175712AE065C374"
+               BlueprintIdentifier = "A0FF6D82399DADCB1B9E53ACCAB13A50"
+               BuildableName = "libidn.framework"
                BlueprintName = "libidn"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libidn.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

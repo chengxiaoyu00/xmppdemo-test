@@ -28,17 +28,13 @@ class xmppManager: NSObject {
     /// stream流模块
     var xmppStream: XMPPStream?
     /// 好友模块
-    var xmppRoster: XMPPRoster? {
-        guard let storage = XMPPRosterMemoryStorage.init() else { return nil }
+    var xmppRoster: XMPPRoster? = {
+        guard let storage = XMPPRosterMemoryStorage.init() else { return  }
         let roster = XMPPRoster(rosterStorage: storage, dispatchQueue: self.queue)
         return roster
-    }
+    }()
     /// 这个queue 在async 时候会创建多个thred
-    var queue: DispatchQueue {
-        let queue = DispatchQueue(label: "com.xiaoyu.queue",qos:.utility ,attributes: .concurrent)
-
-        return queue
-    }
+    let queue: DispatchQueue = DispatchQueue(label: "com.xiaoyu.queue",qos:.utility ,attributes: .concurrent)
     private var password :String?
     private var user     :String?
     private var loginHandle:loginCallBack?

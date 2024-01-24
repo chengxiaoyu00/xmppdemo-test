@@ -8,6 +8,11 @@ PODS:
     - CocoaLumberjack/Default
   - KissXML (5.2.3)
   - libidn (1.35)
+  - Realm (5.3.2):
+    - Realm/Headers (= 5.3.2)
+  - Realm/Headers (5.3.2)
+  - RealmSwift (5.3.2):
+    - Realm (= 5.3.2)
   - XMPPFramework (4.0.0):
     - XMPPFramework/default (= 4.0.0)
   - XMPPFramework/default (4.0.0):
@@ -17,23 +22,29 @@ PODS:
     - libidn (~> 1.35)
 
 DEPENDENCIES:
+  - RealmSwift
   - XMPPFramework (~> 4.0.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - CocoaAsyncSocket
     - CocoaLumberjack
     - KissXML
     - libidn
     - XMPPFramework
+  trunk:
+    - Realm
+    - RealmSwift
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
   CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
   KissXML: 09f88ff8161fd058d67b70740b8b516687b52823
   libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
+  Realm: c6794276ca8884808ba168a22f9d71362b170b85
+  RealmSwift: 42ec6cec3170aeeda407f797f07268a7d055ebc7
   XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
 
-PODFILE CHECKSUM: 00d76347fdcc47e7581e01773add46a5a5fcc20a
+PODFILE CHECKSUM: 6e42dd10f4effa6263fa537240ec5a5543e2d317
 
-COCOAPODS: 1.6.0.beta.1
+COCOAPODS: 1.9.3

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C66564CB0FF007C9422911398BEA57FC"
+               BlueprintIdentifier = "77A3D42C87C7E2E6588C87CF453322DE"
+               BuildableName = "XMPPFramework.framework"
                BlueprintName = "XMPPFramework"
-               ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "XMPPFramework.framework">
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
